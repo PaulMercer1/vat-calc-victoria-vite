@@ -8,7 +8,8 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './src/test/setup.js',
     coverage: {
-        enabled: true
+        enabled: true,
+        reporters: 'lcov'
     },
   },
 });
