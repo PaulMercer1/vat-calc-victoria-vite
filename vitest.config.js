@@ -7,9 +7,10 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: './src/test/setup.js',
+    reporters: ['json', 'verbose'],
     coverage: {
         enabled: true,
-        reporters: 'lcov'
+        reporter: ['text','lcov']
     },
   },
 });
