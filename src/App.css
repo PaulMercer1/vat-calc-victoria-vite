@@ -4,7 +4,7 @@
 }
 
 .colour-border{
-  border: 3px solid green;
+  border: 3px solid magenta;
   padding: 10px;
 }
 
@@ -13,6 +13,6 @@
 }
 
 body {
-  background-color: darkcyan;
+  background-color: lightpink;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
