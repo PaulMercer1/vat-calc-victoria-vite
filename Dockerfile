@@ -18,7 +18,7 @@ RUN npm run build
 
 # stage 2
 FROM nginx:1.28-alpine
-COPY --from=stage1 /app/build /usr/share/nginx/html
+COPY --from=stage1 /app/dist /usr/share/nginx/html
 
 COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
 
